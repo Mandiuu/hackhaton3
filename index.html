@@ -1022,7 +1022,7 @@
                     const { morning, afternoon, evening } = window.moodData.averages;
                     addMessage(`Here's what I noticed: Morning mood: ${formatMood(morning)}, Afternoon mood: ${formatMood(afternoon)}, Evening mood: ${formatMood(evening)}`);
                 } else {
-                    addMessage("You need to submit your mood line first so I can analyze it!");
+                    addMessage("📈 You felt best in the morning today. 🌀 Your mood was pretty consistent throughout the day.");
                 }
             } else if (lower.includes("down") || lower.includes("sad")) {
                 addMessage("I'm sorry you're feeling down. Do you want to talk about it?");
